@@ -11,7 +11,7 @@ In OWL, an annotation property associates descriptive metadata with a resource. 
 The methodology has two complementary parts:
 
 1. The APV OWL vocabulary, distributed here as [`APV.rdf`](APV.rdf), which defines the available constraints.
-2. Separately maintained validation applications that read those declarations and check whether an ontology conforms to them: the browser-based [Web-APV](WEB_APV_REPOSITORY_URL) and the command-line [CLI-APV](CLI_APV_REPOSITORY_URL).
+2. Separately maintained validation applications that read those declarations and check whether an ontology conforms to them: the browser-based [Web-APV](https://github.com/rhpetry/Web-APV) and the command-line [CLI-APV](https://github.com/rhpetry/CLI-APV).
 
 APV constraints are declarative. The vocabulary expresses the requirements but does not enforce them by itself; enforcement requires a compatible APV validation engine.
 
@@ -230,8 +230,8 @@ APV declarations encode quality requirements; they do not execute validation. A 
 
 Two verification applications are maintained separately from this ontology repository:
 
-- [Web-APV](WEB_APV_REPOSITORY_URL) is the browser-based companion validator that discovers APV constraints and reports violations.
-- [CLI-APV](CLI_APV_REPOSITORY_URL) is the command-line companion validator.
+- [Web-APV](https://github.com/rhpetry/Web-APV) is the browser-based companion validator that discovers APV constraints and reports violations.
+- [CLI-APV](https://github.com/rhpetry/CLI-APV) is the command-line companion validator.
 
 These applications consume the APV vocabulary; neither is included in OWL-APV.
 
